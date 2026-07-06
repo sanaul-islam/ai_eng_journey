@@ -1,0 +1,6 @@
+@"
+venv\
+__pycache__\
+.ipynb_checkpoints\
+.vscode\
+"@ | Out-File -FilePath .gitignore -Encoding utf8
