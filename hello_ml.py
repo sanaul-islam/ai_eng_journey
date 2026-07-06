@@ -8,3 +8,8 @@ print(f"numpy version: {np.__version__}")
 
 arry = np.array([[1, 2, 3], [4, 5, 6]])
 print(f"array mean: {arry.mean()}")
+
+array = np.array([[1, 2, 3], [4, 5, 6]])
+print(f"array shape: {array.shape}")
+print(f"array mean: {array.mean()}")
+print(f"array sum: {array.sum()}")
